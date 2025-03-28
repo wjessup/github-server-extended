@@ -1,0 +1,33 @@
+{
+  "name": "github-server-extended",
+  "version": "1.0.0",
+  "description": "Extended GitHub MCP Server with additional PR review comment functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjessup/github-server-extended.git"
+  },
+  "keywords": [
+    "github",
+    "mcp",
+    "api",
+    "pull-request",
+    "review",
+    "comments"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wjessup/github-server-extended/issues"
+  },
+  "homepage": "https://github.com/wjessup/github-server-extended#readme",
+  "dependencies": {
+    "@modelcontextprotocol/server-github": "^1.0.0",
+    "@octokit/graphql": "^7.0.2",
+    "@octokit/rest": "^20.0.1"
+  }
+}
